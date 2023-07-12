@@ -1,0 +1,75 @@
+@import url('https://fonts.cdnfonts.com/css/tt-rounds-neue-trial');
+
+html {
+    box-sizing: border-box;
+}
+body {
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.header-background {
+    position: absolute;
+    background: url(img/bgc.png);
+    background-size: 100%;
+    object-fit: cover;
+    max-width: 1915px;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column; 
+    margin-top: 54px;  
+}
+
+.header-top {
+    display: flex;
+    justify-content:space-between;
+}
+
+h1{
+    font-family: 'TT Rounds Neue Trial', sans-serif;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    border-top: 1px solid white; /* Линия сверху текста */
+    border-bottom: 1px solid white; /* Линия снизу текста */
+}
+
+.header-list__item{
+    display: flex;
+    width: 285px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    font-family: 'TT Rounds Neue Trial', sans-serif;;
+    border-right: 1px solid white;
+    padding-left: 100px;
+}
+
+.header-list__item:last-child{
+    border-right: none;
+}
+
+.header-btn{
+    display: flex;
+    align-items: center;
+}
