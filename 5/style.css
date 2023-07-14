@@ -1,10 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/tt-rounds-neue-trial');
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
 
 html {
     box-sizing: border-box;
 }
 body {
     color: white;
+    background:var(--black, #282828);
 }
 
 .container {
@@ -40,6 +42,11 @@ body {
     justify-content:space-between;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 h1{
     font-family: 'TT Rounds Neue Trial', sans-serif;
 }
@@ -69,7 +76,258 @@ h1{
     border-right: none;
 }
 
-.header-btn{
+.main-hero {
+    margin-top: 460px;
+    margin-left: 360px;
     display: flex;
     align-items: center;
+}
+
+
+.main-hero__btn{
+    margin-right: 15px;
+    background-color: #998431;
+    border: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;  
+    color: white;
+    padding: 15px 30px;
+}
+
+.header-btn__deg{
+    background-color: #998431;
+    border: none;
+}
+
+
+.taste-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1110px;
+    height: 656px;
+    text-align: center;
+    margin-top: 165px;
+    border: 3px solid #C4C4C4;
+    margin-bottom: 100px;
+}
+h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.taste-line{
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: #FFF;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+}
+
+.vino-png{
+    width: 160px;
+    height: 160px;
+    padding-top: 50px;
+}
+
+.dawn{
+    width: 100%;
+    height: 1038px;
+    flex-shrink: 0;
+}
+
+.dawn-background {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    background-color: #E6E3C4;
+}
+
+h3{
+    color: var(--black, #282828);
+    font-family:"Playfair Display", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    margin-bottom: 30PX;
+}
+
+.title{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+.dawn-line__bot{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: var(--black, #282828);
+}
+
+.dawn-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #282828;
+}
+
+.container-dawn{
+    margin-top: 80px;
+    border-top:  1px solid #998431 ;
+}
+
+.dawn-columns {
+    display: flex;
+}
+
+.right-column{
+    display: block;
+}
+
+.right-column__bottom {
+    display: flex;
+}
+
+.img-o{
+    width: 540px;
+    height: 500px;
+}
+
+.img-tf{
+    width: 255px;
+    height: 228px;
+}
+
+
+
+.deg{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.deg-line{
+    margin-left: 480px;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: #FFF;
+}
+
+.degustation{
+    max-width: 1920px;
+    max-height: 1038px;
+    align-items: center;
+}
+
+.deg-text{
+    text-align: center;
+}
+
+.anceta{
+    list-style: none;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 1px solid white; /* Линия снизу текста */
+    padding-left: 100px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 285px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+
+
+
+
+.footer-background {
+    position: absolute;
+    left: 0;
+    width: 1920px;
+    height: 220px;
+    flex-shrink: 0;
+    z-index: -1;
+    background-color: #998431;
+}
+
+.footer-top{
+    list-style: none;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-top: 1px solid white; /* Линия сверху текста */
+    border-bottom: 1px solid white; /* Линия снизу текста */
+    max-width: 1110px;;
+}
+
+.footer-text{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 285px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.footer-bottom{
+    list-style: none;
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    margin-left: 200px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white; /* Линия снизу текста */
+}
+
+.footer-list{
+    display: flex;
+    width: 200px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    font-family: 'TT Rounds Neue Trial', sans-serif;;
+    border-right: 1px solid white;
+    padding-left: px;
+}
+
+.footer-list:last-child{
+    border-right: none;
+}
+
+.footer-svg{
+    margin-right: 43px;
 }
